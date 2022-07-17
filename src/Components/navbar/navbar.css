@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 150px;
+}
+.navbar_elements a {
+  text-decoration: none;
+  font-size: 1.5vw;
+  padding: 1vh 1vw;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  margin: 0vh 1vw;
+  font-weight: 600;
+}
+a:hover
+{
+    color: crimson;
+    transition: all 0.2s;
+}
+.navbar_button {
+  padding: 1vh 1vw;
+  border-radius: 18px;
+  font-weight: 600;
+  outline: none;
+  border: 2px solid crimson;
+  background: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1vw;
+  margin-right: 20px;
+}
+.navbar_button:hover
+{
+    border: 2px solid darkorange;
+    cursor: pointer;
+    transition: all 0.2s;
+}
