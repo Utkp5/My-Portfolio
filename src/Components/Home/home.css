@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+.container {
+  position: absolute;
+  top: 38vh;
+  left: 12vw;
+  font-family: "Ubuntu", sans-serif;
+}
+.home_p1 {
+  font-size: 2vw;
+  color: crimson;
+  margin-bottom: 2vh;
+}
+.home_p2 {
+  font-size: 3vw;
+  margin-bottom: 3vh;
+}
+.home_p2_span {
+  font-size: 5vw;
+}
+.home_p2_span1 {
+  font-size: 4vw;
+  margin-left: 1vw;
+}
+.home_p3 {
+  font-size: 2vw;
+  margin: 1vh 0vw;
+}
+.home_p3_span {
+  color: crimson;
+}
+.home_p4 {
+  font-size: 1.4vw;
+  color: darkgray;
+}
+.home_p5 {
+  display: none;
+}
+.photo {
+  width: 25vw;
+  position: absolute;
+  top: 20vh;
+  left: 63vw;
+}
+
+@media (max-width: 850px) {
+  .container {
+    top: 30vh;
+    left: 16vw;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    top: 14vh;
+  }
+  .home_p1 {
+    font-size: 4vw;
+  }
+  .home_p2 {
+    font-size: 5vw;
+  }
+  .home_p2_span
+  {
+    font-size: 9vw;
+  }
+  .home_p2_span1
+  {
+    font-size: 7vw;
+  }
+  .home_p3
+  {
+    font-size: 4vw;
+  }
+  .home_p4
+  {
+    font-size: 2.4vw;
+  }
+  .photo
+  {
+    width: 47vw;
+    top: 46vh;
+    left: 28vw;
+  }
+}
+@media (max-width:400px) {
+    .photo
+    {
+        top: 38vh
+    }
+}
