@@ -33,7 +33,40 @@
   color: darkgray;
 }
 .home_p5 {
-  display: none;
+  margin-top: 2vh;
+  display: flex;
+}
+.svg
+{
+  width: 2.2vw;
+  padding-right: 20px;
+}
+.svg:hover
+{
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.about_me
+{
+  padding: auto;
+  padding: 1vh 2vw;
+  margin-top: 2vh;
+  border-radius: 18px;
+  outline: none;
+  background: orangered;
+  color: wheat;
+  font-size: medium;
+  font-weight: 600;
+  font-family: 'Ubuntu';
+  border: 2px solid orangered;
+}
+.about_me:hover
+{
+  transform: scale(1.1);
+  background-color: white;
+  color: black;
+  transition: all 0.4s;
+  cursor: pointer;
 }
 .photo {
   width: 25vw;
@@ -44,8 +77,12 @@
 
 @media (max-width: 850px) {
   .container {
-    top: 30vh;
+    top: 26vh;
     left: 16vw;
+  }
+  .about_me
+  {
+    font-size: 2vw;
   }
 }
 @media (max-width: 550px) {
@@ -77,13 +114,29 @@
   .photo
   {
     width: 47vw;
-    top: 46vh;
+    top: 57vh;
     left: 28vw;
+  }
+  .about_me
+  {
+    font-size: 3vw;
+  }
+  .svg
+  {
+    width: 4.2vw;
   }
 }
 @media (max-width:400px) {
     .photo
     {
-        top: 38vh
+        top: 49vh
+    }
+    .svg
+    {
+      padding-right: 10px;
+    }
+    .about_me
+    {
+      font-size: 2.2vw;
     }
 }
