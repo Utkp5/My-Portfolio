@@ -2,26 +2,27 @@ import React from "react";
 import "./home.css";
 import photoo from "../../images/photo.jpg";
 
+
 function Home() {
   return (
     <div>
       <div className="container">
-        <p className="home_p1">Hello, I'm</p>
-        <p className="home_p2">
-          <span className="home_p2_span">P</span>andit
-          <span className="home_p2_span1">U</span>tkarsh
-        </p>
-        <p className="home_p3">
-          A Creative Web Developer{" "}
-          <span className="home_p3_span">From India</span>
-        </p>
-        <p className="home_p4">
-          I'm very Passionate and Dedicated Towards My Work
-        </p>
+          <p className="home_p1">Hello, I'm</p>
+          <p className="home_p2">
+            <span className="home_p2_span">P</span>andit
+            <span className="home_p2_span1">U</span>tkarsh
+          </p>
+          <p className="home_p3">
+            A productive <span className="home_p3_span"> Web Developer </span> 
+            From India
+          </p>
+          <p className="home_p4">
+            I'm very Passionate and Dedicated Towards My Work
+          </p>
         <p className="home_p5">
           <a href="https://www.linkedin.com/in/utkarsh-utkarsh-a7639123a/">
             <svg
-              className="svg"
+              className="svg svg_1"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
             >
@@ -30,7 +31,7 @@ function Home() {
           </a>
           <a href="https://github.com/Utkp5">
             <svg
-              className="svg"
+              className="svg svg_2"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
             >
@@ -39,7 +40,7 @@ function Home() {
           </a>
           <a href="https://twitter.com/Utkarsh26375358?t=3435Pcl75InKslHFzm-S1Q&s=09">
             <svg
-              className="svg"
+              className="svg svg_3"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
             >
@@ -48,7 +49,7 @@ function Home() {
           </a>
           <a href="">
             <svg
-              className="svg"
+              className="svg svg_4"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
             >

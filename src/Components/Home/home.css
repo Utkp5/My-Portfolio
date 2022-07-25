@@ -5,6 +5,21 @@
   left: 12vw;
   font-family: "Ubuntu", sans-serif;
 }
+/* .background
+{
+  background-image: url(../../images/bg\ paint.jpg);
+  background-repeat: no-repeat;
+  width: 66vw;
+    position: absolute;
+    height: -2vh;
+    z-index: -1;
+    height: 55vh;
+    left: -18vw;
+    transform: translate(10deg);
+    top: -14vh;
+    transform: rotatey(29deg);
+    transform: rotateX(68deg);
+} */
 .home_p1 {
   font-size: 2vw;
   color: crimson;
@@ -41,6 +56,22 @@
   width: 2.2vw;
   padding-right: 20px;
 }
+.svg_1:hover
+{
+  fill: #0A66C2 ;
+}
+.svg_2:hover
+{
+  fill: #cf18b1 ;
+}
+.svg_3:hover
+{
+  fill: #1DA1F2 ;
+}
+.svg_4:hover
+{
+  fill: green ;
+}
 .svg:hover
 {
   transform: scale(1.3);
@@ -53,12 +84,12 @@
   margin-top: 2vh;
   border-radius: 18px;
   outline: none;
-  background: orangered;
+  background: crimson;
   color: wheat;
   font-size: medium;
   font-weight: 600;
   font-family: 'Ubuntu';
-  border: 2px solid orangered;
+  border: 2px solid crimson;
 }
 .about_me:hover
 {
@@ -74,6 +105,37 @@
   top: 20vh;
   left: 63vw;
 }
+/* .js_img
+{
+  width: 9vw;
+  position: absolute;
+  top: 21vh;
+  left: 55vw;
+  z-index: 1;
+  animation-name: scale;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+} */
+
+/* @keyframes scale {
+  0%
+  {
+    transform: scale(1);
+  }
+  50%
+  {
+    transform: scale(1.1);
+  }
+  100%
+  {
+    transform: scale(1.2);
+  }
+} */
+
+
+
 
 @media (max-width: 850px) {
   .container {
