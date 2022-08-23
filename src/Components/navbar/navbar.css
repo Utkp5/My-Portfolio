@@ -57,7 +57,7 @@ a:hover
     width: 22vw;
   }
 }
-@media (max-width:240px) {
+@media (max-width:425px) {
   .navbar_elements
   {
     display: none;

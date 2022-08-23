@@ -1,24 +1,25 @@
 import React from "react";
 import "./home.css";
 import photoo from "../../images/photo.jpg";
-
+import my_img from "../../images/my_img.jpg";
 
 function Home() {
   return (
     <div>
       <div className="container">
-          <p className="home_p1">Hello, I'm</p>
-          <p className="home_p2">
-            <span className="home_p2_span">P</span>andit
-            <span className="home_p2_span1">U</span>tkarsh
-          </p>
-          <p className="home_p3">
-            A productive unOfficial <span className="home_p3_span"> Web Developer </span> 
-            From India
-          </p>
-          <p className="home_p4">
-            I'm very Passionate and Dedicated Towards My Work
-          </p>
+        <p className="home_p1">Hello, I'm</p>
+        <p className="home_p2">
+          <span className="home_p2_span">P</span>andit
+          <span className="home_p2_span1">U</span>tkarsh
+        </p>
+        <p className="home_p3">
+          A productive unOfficial{" "}
+          <span className="home_p3_span"> Web Developer </span>
+          From India
+        </p>
+        <p className="home_p4">
+          I'm very Passionate and Dedicated Towards My Work
+        </p>
         <p className="home_p5">
           <a href="https://www.linkedin.com/in/utkarsh-utkarsh-a7639123a/">
             <svg
@@ -60,6 +61,16 @@ function Home() {
         <button className="about_me">About Me</button>
       </div>
       <img className="photo" src={photoo} alt="" />
+
+      <div className="about_main">
+      <h2 className="about_h2">About</h2>
+        <div className="about_container">
+            <img src={my_img} className="my_img" alt="my Image" />
+          <div className="about_content">Hey , I'm Utkarsh . I am Basically from Delhi, India and my HomeTown is in Patna Bihar I am in learning phase of my  web development Carrer with a focus on MERN Stack and I love to play with codes and Create awesome websites. I started My journey in 
+          Web development almost in the starting of 2022 and now I fell in love with it. I have a deep passion for coding and to explore and learn new things until i find its end point. I'm adoptable according to situation and trust worthy person. I feel very lucky that now my work is my hobby which i can enjoy.</div>
+        </div>
+      </div>
+
     </div>
   );
 }
