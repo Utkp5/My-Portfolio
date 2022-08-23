@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import photoo from "../../images/photo.jpg";
 import my_img from "../../images/my_img.jpg";
+import Certificates from "../Certificates";
 
 function Home() {
   return (
@@ -80,51 +81,8 @@ function Home() {
         </div>
       </div>
 
-      <div className="achievements">
-        <h3 className="achieve_h3">Achievements</h3>
-        <div className="achieve_main">
-          <div className="cert_card">
-            <img
-              src="https://media.istockphoto.com/id/1299115030/photo/school-scripture-prize-1904.webp?s=612x612&w=is&k=20&c=Avst-UV2YbAtR0jgBYGeDE3wwjVDwB_xyOXVB6dKEsw="
-              alt="Certificate"
-              id="cert_img1"
-            />
-            <p  className="cert_1_p cert_p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-              est sunt inventore porro explicabo corporis iste aut vel.
-              Perspiciatis, vitae ipsum. Voluptatibus laudantium pariatur quod
-              doloribus iste est laboriosam repellendus.
-            </p>
-          </div>
-          <div className="cert_card">
-            <img
-              src="https://media.istockphoto.com/id/1299115030/photo/school-scripture-prize-1904.webp?s=612x612&w=is&k=20&c=Avst-UV2YbAtR0jgBYGeDE3wwjVDwB_xyOXVB6dKEsw="
-              alt="Certificate"
-              id="cert_img1"
-            />
-            <p  className="cert_1_p cert_p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-              est sunt inventore porro explicabo corporis iste aut vel.
-              Perspiciatis, vitae ipsum. Voluptatibus laudantium pariatur quod
-              doloribus iste est laboriosam repellendus.
-            </p>
-          </div>
-          <div className="cert_card">
-            <img
-              src="https://media.istockphoto.com/id/1299115030/photo/school-scripture-prize-1904.webp?s=612x612&w=is&k=20&c=Avst-UV2YbAtR0jgBYGeDE3wwjVDwB_xyOXVB6dKEsw="
-              alt="Certificate"
-              id="cert_img1"
-            />
-            <p className="cert_1_p cert_p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-              est sunt inventore porro explicabo corporis iste aut vel.
-              Perspiciatis, vitae ipsum. Voluptatibus laudantium pariatur quod
-              doloribus iste est laboriosam repellendus.
-            </p>
-          </div>
-        </div>
+      <Certificates />
       </div>
-    </div>
   );
 }
 

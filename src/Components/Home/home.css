@@ -112,48 +112,6 @@
   margin-left: 70px;
   font-family: "Ubuntu", sans-serif;
 }
-.achievements
-{
-  border: 2px solid darkblue;
-}
-.achieve_h3
-{
-  text-align: center;
-  font-size: xxx-large;
-  margin-bottom: 30px;
-}
-.achieve_main
-{
-  display: flex;
-  justify-content: space-evenly;
-  height: 400px;
-  flex-wrap: wrap;
-}
-.cert_card
-{
-  border-radius: 0px 0px 10px 10px;
-  width: 22vw;
-  display: flex;
-  flex-direction: column;
-  height: 350px;
-  justify-content: flex-start;
-  /* background: darkorange; */
-  box-shadow: 0px 7px 12px 7px grey;
-}
-#cert_img1
-{
-  width: 300px;
-}
-#cert_img1:hover
-{
-
-  cursor: pointer;
-}
-.cert_p
-{
-  overflow: hidden;
-  font-family: "Ubuntu", sans-serif;
-}
 
 
 
