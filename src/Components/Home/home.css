@@ -4,6 +4,7 @@
   top: 38vh;
   left: 12vw;
   font-family: "Ubuntu", sans-serif;
+  z-index: -1;
 }
 
 .home_p1 {
@@ -82,6 +83,7 @@
   position: absolute;
   top: 20vh;
   left: 63vw;
+  z-index: -1;
 }
 .about_main {
   margin-top: 100vh;

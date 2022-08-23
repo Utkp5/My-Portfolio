@@ -1,7 +1,6 @@
 .achievements {
   /* border: 2px solid darkblue; */
   height: 1000px;
-  margin-top: -180px;
 }
 .achieve_h3 {
   text-align: center;
@@ -48,5 +47,9 @@
     cursor: pointer;
     transform: scale(1.3);
     transition: all 0.5s;
+  }
+  .achievements
+  {
+  margin-top: -180px;
   }
 }

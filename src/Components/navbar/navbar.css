@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 * {
   margin: 0;
@@ -11,19 +11,25 @@
 .logo {
   width: 12vw;
 }
-.navbar_elements a {
+.navbar_ul {
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+li a {
   text-decoration: none;
   font-size: 1.5vw;
   padding: 1vh 1vw;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: black;
   margin: 0vh 1vw;
   font-weight: 600;
 }
-a:hover
-{
-    color: crimson;
-    transition: all 0.2s;
+a:hover {
+  color: crimson;
+  transition: all 0.2s;
 }
 .navbar_button {
   padding: 1vh 1vw;
@@ -32,34 +38,75 @@ a:hover
   outline: none;
   border: 2px solid crimson;
   background: center;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 1.1vw;
   margin-right: 20px;
 }
-.navbar_button:hover
-{
-    border: 2px solid darkorange;
-    cursor: pointer;
-    transition: all 0.2s;
+.navbar_button:hover {
+  border: 2px solid darkorange;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.menu_icon {
+  display: none;
 }
 
-@media (max-width:500px) {
-  .navbar_elements a
-  {
+@media (max-width: 500px) {
+  .navbar_ul li a {
     font-size: 2.5vw;
   }
-  .navbar_button
-  {
+  .navbar_button {
     font-size: 2vw;
   }
-  .logo
-  {
+  .logo {
     width: 22vw;
   }
-}
-@media (max-width:425px) {
-  .navbar_elements
-  {
+  .navbar_ul {
     display: none;
+  }
+  .navbar_mobile_css {
+    position: absolute;
+    display: block;
+    background-color: #242424;
+    list-style: none;
+    left: 0;
+    top: 60px;
+    width: 100%;
+  }
+  .menu_icon {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    transition: all 0.5s ease-in-out;
+  }
+  .navbar_li {
+    margin: 20px 0px;
+  }
+  .navbar_li a {
+    font-size: 5vw;
+    margin: 0px -1px;
+    color: ghostwhite;
+  }
+  .animation_li {
+    animation-name: slider;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .navbar_button {
+    color: ghostwhite;
+    font-size: 5vw;
+    /* margin: 0px -10px; */
+    animation-name: slider;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes slider {
+    from {
+      transform: translateX(-166px);
+    }
+    to {
+      transform: translateX(-38px);
+    }
   }
 }
