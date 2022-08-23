@@ -11,7 +11,7 @@ function Navbar() {
         <div className="navbar_elements">
           <a href="">Home</a>
           <a href="">About</a>
-          <a href="">Achievemnet</a>
+          <a href="">Achievements</a>
           <a href="">Contact</a>
           <button className="navbar_button">Download CV</button>
         </div>
