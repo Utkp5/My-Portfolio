@@ -63,14 +63,67 @@ function Home() {
       <img className="photo" src={photoo} alt="" />
 
       <div className="about_main">
-      <h2 className="about_h2">About</h2>
+        <h2 className="about_h2">About</h2>
         <div className="about_container">
-            <img src={my_img} className="my_img" alt="my Image" />
-          <div className="about_content">Hey , I'm Utkarsh . I am Basically from Delhi, India and my HomeTown is in Patna Bihar I am in learning phase of my  web development Carrer with a focus on MERN Stack and I love to play with codes and Create awesome websites. I started My journey in 
-          Web development almost in the starting of 2022 and now I fell in love with it. I have a deep passion for coding and to explore and learn new things until i find its end point. I'm adoptable according to situation and trust worthy person. I feel very lucky that now my work is my hobby which i can enjoy.</div>
+          <img src={my_img} className="my_img" alt="my Image" />
+          <div className="about_content">
+            Hey , I'm Utkarsh . I am Basically from Delhi, India and my HomeTown
+            is in Patna Bihar I am in learning phase of my web development
+            Carrer with a focus on MERN Stack and I love to play with codes and
+            Create awesome websites. I started My journey in Web development
+            almost in the starting of 2022 and now I fell in love with it. I
+            have a deep passion for coding and to explore and learn new things
+            until i find its end point. I'm adoptable according to situation and
+            trust worthy person. I feel very lucky that now my work is my hobby
+            which i can enjoy.
+          </div>
         </div>
       </div>
 
+      <div className="achievements">
+        <h3 className="achieve_h3">Achievements</h3>
+        <div className="achieve_main">
+          <div className="cert_card">
+            <img
+              src="https://media.istockphoto.com/id/1299115030/photo/school-scripture-prize-1904.webp?s=612x612&w=is&k=20&c=Avst-UV2YbAtR0jgBYGeDE3wwjVDwB_xyOXVB6dKEsw="
+              alt="Certificate"
+              id="cert_img1"
+            />
+            <p  className="cert_1_p cert_p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              est sunt inventore porro explicabo corporis iste aut vel.
+              Perspiciatis, vitae ipsum. Voluptatibus laudantium pariatur quod
+              doloribus iste est laboriosam repellendus.
+            </p>
+          </div>
+          <div className="cert_card">
+            <img
+              src="https://media.istockphoto.com/id/1299115030/photo/school-scripture-prize-1904.webp?s=612x612&w=is&k=20&c=Avst-UV2YbAtR0jgBYGeDE3wwjVDwB_xyOXVB6dKEsw="
+              alt="Certificate"
+              id="cert_img1"
+            />
+            <p  className="cert_1_p cert_p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              est sunt inventore porro explicabo corporis iste aut vel.
+              Perspiciatis, vitae ipsum. Voluptatibus laudantium pariatur quod
+              doloribus iste est laboriosam repellendus.
+            </p>
+          </div>
+          <div className="cert_card">
+            <img
+              src="https://media.istockphoto.com/id/1299115030/photo/school-scripture-prize-1904.webp?s=612x612&w=is&k=20&c=Avst-UV2YbAtR0jgBYGeDE3wwjVDwB_xyOXVB6dKEsw="
+              alt="Certificate"
+              id="cert_img1"
+            />
+            <p className="cert_1_p cert_p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              est sunt inventore porro explicabo corporis iste aut vel.
+              Perspiciatis, vitae ipsum. Voluptatibus laudantium pariatur quod
+              doloribus iste est laboriosam repellendus.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

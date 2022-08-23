@@ -5,21 +5,7 @@
   left: 12vw;
   font-family: "Ubuntu", sans-serif;
 }
-/* .background
-{
-  background-image: url(../../images/bg\ paint.jpg);
-  background-repeat: no-repeat;
-  width: 66vw;
-    position: absolute;
-    height: -2vh;
-    z-index: -1;
-    height: 55vh;
-    left: -18vw;
-    transform: translate(10deg);
-    top: -14vh;
-    transform: rotatey(29deg);
-    transform: rotateX(68deg);
-} */
+
 .home_p1 {
   font-size: 2vw;
   color: crimson;
@@ -126,35 +112,54 @@
   margin-left: 70px;
   font-family: "Ubuntu", sans-serif;
 }
-
-/* .js_img
+.achievements
 {
-  width: 9vw;
-  position: absolute;
-  top: 21vh;
-  left: 55vw;
-  z-index: 1;
-  animation-name: scale;
-  animation-timing-function: linear;
-  animation-duration: 2s;
-  animation-direction: normal;
-  animation-iteration-count: infinite;
-} */
+  border: 2px solid darkblue;
+}
+.achieve_h3
+{
+  text-align: center;
+  font-size: xxx-large;
+  margin-bottom: 30px;
+}
+.achieve_main
+{
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+  flex-wrap: wrap;
+}
+.cert_card
+{
+  border-radius: 0px 0px 10px 10px;
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: flex-start;
+  /* background: darkorange; */
+  box-shadow: 0px 7px 12px 7px grey;
+}
+#cert_img1
+{
+  width: 300px;
+}
+#cert_img1:hover
+{
 
-/* @keyframes scale {
-  0%
-  {
-    transform: scale(1);
-  }
-  50%
-  {
-    transform: scale(1.1);
-  }
-  100%
-  {
-    transform: scale(1.2);
-  }
-} */
+  cursor: pointer;
+}
+.cert_p
+{
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+
+
+
+
 
 @media (max-width: 1045px) {
   .about_main {
