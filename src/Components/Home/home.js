@@ -3,10 +3,13 @@ import "./home.css";
 import photoo from "../../images/photo.jpg";
 import my_img from "../../images/my_img.jpg";
 import Certificates from "../Certificates";
+import Navbar from "../navbar/navbar";
+import Skill from "../Skills/Skill";
 
 function Home() {
   return (
     <div>
+    <Navbar />
       <div className="container">
         <p className="home_p1">Hello, I'm</p>
         <p className="home_p2">
@@ -62,7 +65,6 @@ function Home() {
         <button className="about_me">About Me</button>
       </div>
       <img className="photo" src={photoo} alt="" />
-
       <div className="about_main">
         <h2 className="about_h2">About</h2>
         <div className="about_container">
@@ -82,6 +84,7 @@ function Home() {
       </div>
 
       <Certificates />
+      <Skill />
       </div>
   );
 }

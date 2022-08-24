@@ -1,11 +1,9 @@
-import Main from "./views/Home/Main";
+import Home from './Components/Home/home'
 
 function App() {
   return (
     <div className="App">
-
-    <Main />
-    
+    <Home />
     </div>
   );
 }

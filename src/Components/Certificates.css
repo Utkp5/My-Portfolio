@@ -52,4 +52,13 @@
   {
   margin-top: -180px;
   }
+  .cert_card
+  {
+    width: 250px;
+    height: 320px;
+  }
+  #cert_img1
+  {
+    width: 250px;
+  }
 }

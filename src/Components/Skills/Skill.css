@@ -1,0 +1,85 @@
+.skill {
+  border: 2px solid;
+}
+#skill_h3 {
+  text-align: center;
+  font-size: xxx-large;
+  font-family: "Ubuntu", sans-serif;
+}
+#skill_flex {
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+  align-items: center;
+}
+.skill_card {
+  width: 283px;
+  height: 200px;
+}
+.skill_ul {
+  list-style: none;
+  margin-left: -30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 26px;
+}
+.skill_h4 {
+  font-size: x-large;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+li {
+  padding: 20px 0px;
+}
+.frontend_svg {
+  width: 50px;
+}
+.frntsvg1 {
+  fill: orangered;
+}
+.frntsvg2 {
+  fill: blue;
+}
+.frntsvg3 {
+  fill: lightskyblue;
+}
+.frntsvg4 {
+  fill: #e5e538;
+}
+.backend_svg {
+  width: 52px;
+}
+.tools_svg {
+  width: 56px;
+}
+@media (max-width: 1110px) {
+  .skill {
+    margin-top: 400px;
+  }
+}
+@media (max-width: 740px) {
+  #skill_flex {
+    margin-top: 75px;
+    flex-direction: column;
+  }
+  .skill {
+    margin-top: 1530px;
+  }
+}
+@media (max-width: 425px) {
+  #skill_h3 {
+    font-size: x-large;
+  }
+  .skill_h4 {
+    font-size: smaller;
+  }
+  .frontend_svg {
+    width: 35px;
+  }
+  .backend_svg {
+    width: 40px;
+  }
+  .tools_svg {
+    width: 45px;
+  }
+}
