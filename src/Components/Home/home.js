@@ -5,6 +5,7 @@ import Certificates from "../Certificates";
 import Navbar from "../navbar/navbar";
 import Skill from "../Skills/Skill";
 import About from "../About/About";
+import Project from "../Projects/Project";
 
 function Home() {
   return (
@@ -68,6 +69,7 @@ function Home() {
       <About />
       <Certificates />
       <Skill />
+      <Project />
       </div>
   );
 }

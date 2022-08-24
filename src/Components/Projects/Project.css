@@ -1,0 +1,45 @@
+.projct
+{
+    border: 2px solid;
+    height: 400px;
+}
+.projct_h3
+{
+    text-align: center;
+    font-size: xxx-large;
+    font-family: "Ubuntu", sans-serif;
+}
+.projct_flex
+{
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid yellow;
+    height: 300px;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-left: 100px; */
+}
+.projct_card
+{
+    border: 2px solid red;
+    width: 285px;
+    margin: 5px 5px;
+    height: 200px;
+    cursor: pointer;
+}
+.projct_1
+{
+    
+}
+.projct_2
+{
+
+}
+.projct_3
+{
+
+}
+.projct_4
+{
+
+}
