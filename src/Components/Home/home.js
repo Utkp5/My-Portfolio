@@ -6,6 +6,7 @@ import Navbar from "../navbar/navbar";
 import Skill from "../Skills/Skill";
 import About from "../About/About";
 import Project from "../Projects/Project";
+import Footer from "../footer/Footer";
 
 function Home() {
   return (
@@ -70,6 +71,7 @@ function Home() {
       <Certificates />
       <Skill />
       <Project />
+      <Footer />
       </div>
   );
 }
