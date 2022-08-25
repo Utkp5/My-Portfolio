@@ -22,7 +22,7 @@ function Navbar() {
             </li>
             <li className="navbar_li animation_li">
               <a href="#Skill">Skill</a>
-            </li>
+            </li> 
             <li className="navbar_li animation_li">
               <a href="#Projects">Projects</a>
             </li>
