@@ -42,7 +42,7 @@ function Certificates() {
   ]);
 
   return (
-    <div className="achievements">
+    <div id="Achievements" className="achievements">
       <h3 className="achieve_h3">Achievements</h3>
       <div className="achieve_main">
       {

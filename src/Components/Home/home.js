@@ -9,7 +9,7 @@ import Project from "../Projects/Project";
 
 function Home() {
   return (
-    <div>
+    <div id="Home">
     <Navbar />
       <div className="container">
         <p className="home_p1">Hello, I'm</p>

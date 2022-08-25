@@ -4,7 +4,7 @@ import my_img from "../../images/my_img.jpg";
 
 function About() {
   return (
-      <div className="about_main">
+      <div id="About" className="about_main">
         <h2 className="about_h2">About</h2>
         <div className="about_container">
           <img src={my_img} className="my_img" alt="my Image" />

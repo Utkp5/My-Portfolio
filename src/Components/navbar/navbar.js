@@ -12,24 +12,24 @@ function Navbar() {
         <div><img className="logo" src={logoo} alt="" /></div>
           <ul className={menu ? "navbar_mobile_css" : "navbar_ul"}>
             <li className="navbar_li animation_li">
-              <a href="">Home</a>
+              <a href="#Home">Home</a>
             </li>
             <li className="navbar_li animation_li">
-              <a href="">About</a>
+              <a href="#About">About</a>
             </li>
             <li className="navbar_li animation_li">
-              <a href="">Achievements</a>
+              <a href="#Achievements">Achievements</a>
             </li>
             <li className="navbar_li animation_li">
-              <a href="">Skill</a>
+              <a href="#Skill">Skill</a>
             </li>
             <li className="navbar_li animation_li">
-              <a href="">Projects</a>
+              <a href="#Projects">Projects</a>
             </li>
             <li className="navbar_li animation_li">
-              <a href="">Contact</a>
+              <a href="#Contact">Contact</a>
             </li>
-            <li className="navbar_li"><button className="navbar_button">Download CV</button></li>
+            <li className="navbar_li"><a target="_blank" href="https://drive.google.com/file/d/1qyOZEaM_B9aSHjV-6zPvlCz7uCje5PCI/view?usp=sharing"><button className="navbar_button">Download CV</button></a></li>
             </ul>
             <div className="menu_icon" onClick={() => setmenu(!menu)}>
             {menu ? <HiOutlineX size={36}/>  : <HiMenuAlt3 size={36}/>}
