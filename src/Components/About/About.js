@@ -7,7 +7,7 @@ function About() {
       <div id="About" className="about_main">
         <h2 className="about_h2">About</h2>
         <div className="about_container">
-          <img src={my_img} className="my_img" alt="my Image" />
+          <img src={my_img} loading="lazy" className="my_img" alt="my Image" />
           <div className="about_content">
             Hey , I'm Utkarsh . I am Basically from Delhi, India and my HomeTown
             is in Patna Bihar I am in learning phase of my web development

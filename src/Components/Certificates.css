@@ -54,11 +54,15 @@
   }
   .cert_card
   {
-    width: 250px;
-    height: 320px;
+    width: 127px;
+    height: 160px;
   }
   #cert_img1
   {
-    width: 250px;
+    width: 128px;
+  }
+  .cert_p
+  {
+    font-size: 10px;
   }
 }

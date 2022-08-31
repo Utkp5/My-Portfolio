@@ -66,7 +66,7 @@ function Home() {
         </p>
         <button className="about_me">About Me</button>
       </div>
-      <img className="photo" src={photoo} alt="" />
+      <img className="photo" src={photoo} alt="" loading="lazy"/>
       <About />
       <Certificates />
       <Skill />
