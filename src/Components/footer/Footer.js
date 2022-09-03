@@ -74,7 +74,7 @@ function Footer() {
           <input type="text" name="message" id="msg" />
           </p>
           </div>
-          <button className="conct_btn" type="submit" >Submit</button>
+          <button className="conct_btn" type="submit" onClick={() => window.location.href="/"}>Submit</button>
           </form>
         </div>
       </div>
