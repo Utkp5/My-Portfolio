@@ -59,21 +59,23 @@ function Footer() {
         </div>
         <div className="conct_div2">
           <h5 className="conct_div2_h5">Drop me a Message</h5>
+          <form action="https://formspree.io/f/moqbjvkb" method="post">
           <div className="input_flex">
           <p className="conct_p">
           <label className="label" htmlFor="name">Name</label>
-          <input type="text" name="" id="name" />
+          <input type="text" name="name" id="name" />
           </p>
           <p className="conct_p">
           <label className="label" htmlFor="email">E-mail </label>
-          <input type="email" name="" id="email" />
+          <input type="email" name="email" id="email" />
           </p>
           <p>
           <label className="label" htmlFor="message">Message </label>
-          <input type="text" name="" id="msg" />
+          <input type="text" name="message" id="msg" />
           </p>
           </div>
-          <button className="conct_btn">Submit</button>
+          <button className="conct_btn" type="submit" >Submit</button>
+          </form>
         </div>
       </div>
     </footer>
