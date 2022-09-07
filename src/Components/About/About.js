@@ -1,14 +1,20 @@
 import React from "react";
 import './About.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import my_img from "../../images/my_img.jpg";
+import { useEffect } from "react";
 
 function About() {
+  useEffect(() => {
+    AOS.init();
+  })
   return (
-      <div id="About" className="about_main">
+      <div id="About" className="about_main" data-aos="fade-down" data-aos-duration="400">
         <h2 className="about_h2">About</h2>
         <div className="about_container">
-          <img src={my_img} loading="lazy" className="my_img" alt="my Image" />
-          <div className="about_content">
+          <img src={my_img} className="my_img" alt="my Image"  data-aos="fade-right" data-aos-duration="1500" />
+          <div className="about_content" data-aos="fade-left" data-aos-duration="1500">
             Hey , I'm Utkarsh . I am Basically from Delhi, India and my HomeTown
             is in Patna Bihar I am in learning phase of my web development
             Carrer with a focus on MERN Stack and I love to play with codes and
