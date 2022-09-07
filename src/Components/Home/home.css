@@ -102,6 +102,10 @@
 
 
 @media (max-width: 550px) {
+  .scrolltotop
+  {
+    display: none;
+  }
   .container {
     top: 14vh;
   }
