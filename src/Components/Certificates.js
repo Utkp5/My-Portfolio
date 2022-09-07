@@ -1,7 +1,13 @@
-import { useState, React } from "react";
+import { useState, React, useEffect } from "react";
 import './Certificates.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Certificates() {
+  useEffect(() => {
+    AOS.init();
+  })
+
   const [card, setcard] = useState([
     {
       id: 1,
@@ -42,13 +48,13 @@ function Certificates() {
   ]);
 
   return (
-    <div id="Achievements" className="achievements">
-      <h3 className="achieve_h3">Achievements</h3>
+    <div id="Achievements" className="achievements" >
+      <h3 className="achieve_h3" data-aos="fade-down" data-aos-duration="400">Achievements</h3>
       <div className="achieve_main">
       {
         card.map((certificate) => {
             return(
-                <div className="cert_card">
+                <div className="cert_card" data-aos="fade-right" data-aos-offset="300" data-aos-duration="700" data-aos-easing="ease-in-sine">
                 <img
                   src={certificate.Crtfct}
                   alt="Certificate"

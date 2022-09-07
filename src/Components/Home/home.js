@@ -16,7 +16,7 @@ function Home() {
 
   useEffect(() => {
     AOS.init();
-  },[]);
+  }); // [] why i have not used this array sym bcz if i add then it will load only one time
 
   return (
     <div id="Home">
