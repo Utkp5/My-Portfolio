@@ -1,4 +1,4 @@
-import React from "react";
+import {React,useEffect,useState} from "react";
 import "./home.css";
 import photoo from "../../images/photo.jpg";
 import Certificates from "../Certificates";
@@ -9,14 +9,36 @@ import Project from "../Projects/Project";
 import Footer from "../footer/Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from "react";
-
+import { HiArrowCircleUp } from "react-icons/hi";
 
 function Home() {
 
   useEffect(() => {
     AOS.init();
   }); // [] why i have not used this array sym bcz if i add then it will load only one time
+
+  // functionality of scrilltotop
+  const [visible,setVisible] = useState(false);
+
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 300){
+      setVisible(true)
+    } 
+    else if (scrolled <= 300){
+      setVisible(false)
+    }
+  };
+  
+  const scrollTop = () =>{
+    window.scrollTo({  // scrollto is inbuilt
+      top: 0, 
+      behavior: 'smooth'
+    });
+  };
+  
+  window.addEventListener('scroll', toggleVisible);
+
 
   return (
     <div id="Home">
@@ -76,6 +98,7 @@ function Home() {
         <button className="about_me">About Me</button>
       </div>
       <img className="photo" src={photoo} alt="" data-aos="fade-left"  data-aos-duration="1000"/>
+      <HiArrowCircleUp className="scrolltotop" size={42} color="crimson" onClick={scrollTop} style={{display: visible ? 'inline' : 'none'}}/>
       <About />
       <Certificates />
       <Skill />

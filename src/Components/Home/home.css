@@ -85,7 +85,13 @@
   left: 63vw;
   z-index: -1;
 }
-
+.scrolltotop
+{
+  position: fixed;
+  cursor: pointer;
+  top: 77vh;
+  left: 92vw;
+}
 
 
 
