@@ -10,8 +10,15 @@ import Footer from "../footer/Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { HiArrowCircleUp } from "react-icons/hi";
+import { useTypewriter,Cursor} from "react-simple-typewriter";
 
 function Home() {
+
+  // Typewriter
+  const [text] = useTypewriter({
+    words:['Unofficial Developer','Designer','Singer','Student'],
+    loop:{},
+  });
 
   useEffect(() => {
     AOS.init();
@@ -44,7 +51,7 @@ function Home() {
     <div id="Home">
     <Navbar />
       <div className="container">
-        <p className="home_p1">Hello, I'm</p>
+        <p className="home_p1">Hello, I'm <span className="typewriter_span">{text}</span> <Cursor /></p>
         <p className="home_p2">
           <span className="home_p2_span">P</span>andit
           <span className="home_p2_span1">U</span>tkarsh

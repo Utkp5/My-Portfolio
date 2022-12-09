@@ -93,7 +93,11 @@
   left: 92vw;
 }
 
-
+.typewriter_span
+{
+  color: dimgray;
+  font-weight: 600;
+}
 
 
 
