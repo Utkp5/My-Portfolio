@@ -16,7 +16,7 @@ function Home() {
 
   // Typewriter
   const [text] = useTypewriter({
-    words:['Unofficial Developer','Designer','Singer','Student'],
+    words:['Unofficial Developer','Designer','Singer','Student','Sports Person'],
     loop:{},
   });
 
